@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lr_4:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="391e32b5-998d-420d-aeb8-8796479d2247" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lr_4_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lr_4_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bsuir/wt/lr_4/DAO/room/RoomDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/src/main/java/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/src/main/java/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/src/main/java/server/SessionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/src/main/java/server/SessionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/src/main/java/server/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/src/main/java/server/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/src/main/java/server/dao/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/src/main/java/server/dao/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/src/main/java/server/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/src/main/java/server/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/src/main/java/server/util/DBLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/src/main/java/server/util/DBLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/src/main/java/server/util/UserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/src/main/java/server/util/UserFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/src/main/resources/usersDB.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/src/main/resources/usersDB.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/target/classes/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/target/classes/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/target/classes/server/SessionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/target/classes/server/SessionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/target/classes/server/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/target/classes/server/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/target/classes/server/dao/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/target/classes/server/dao/UserDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/target/classes/server/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/target/classes/server/model/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/target/classes/server/util/DBLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/target/classes/server/util/DBLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/target/classes/server/util/FieldType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/target/classes/server/util/FieldType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/target/classes/server/util/UserFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/target/classes/server/util/UserFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/target/classes/server/util/UserFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/target/classes/server/util/UserFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/target/classes/usersDB.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/target/classes/usersDB.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/target/lr_3-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/target/lr_3-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lr_3/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../lr_3/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Enum" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Hit4TDhPJgwolbwnVAoESmURlA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/konstantin/Work/Labs/Java-web-tech/lr_4/src/main/webapp/WEB-INF/view&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;PostgreSQL&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="bsuir.wt.lr_4.service.booking" />
+      <recent name="bsuir.wt.lr_4.DAO.booking" />
+      <recent name="bsuir.wt.lr_4.DAO.room" />
+      <recent name="bsuir.wt.lr_4.DAO" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/view" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/view" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.69-dev" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.69-dev" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/registration" />
+      <deployment>
+        <artifact name="lr_4:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="508a6531-f86a-4e59-9729-e2a5a61af352" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="33911" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_PASSWORD" />
+          <option name="VALUE" value="3ed815" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_URL" />
+          <option name="VALUE" value="jdbc:postgresql://localhost:5432/lr_4" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_USERNAME" />
+          <option name="VALUE" value="postgres" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_PASSWORD" />
+          <option name="VALUE" value="3ed815" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_URL" />
+          <option name="VALUE" value="jdbc:postgresql://localhost:5432/lr_4" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_USERNAME" />
+          <option name="VALUE" value="postgres" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="lr_4:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="391e32b5-998d-420d-aeb8-8796479d2247" name="Changes" comment="" />
+      <created>1668779542694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668779542694</updated>
+      <workItem from="1668779544122" duration="15086000" />
+      <workItem from="1668859078512" duration="7940000" />
+      <workItem from="1668938427965" duration="10074000" />
+      <workItem from="1669047135713" duration="550000" />
+      <workItem from="1669120458284" duration="1123000" />
+      <workItem from="1669148200411" duration="1066000" />
+      <workItem from="1669214672919" duration="684000" />
+      <workItem from="1669215565686" duration="282000" />
+      <workItem from="1669219926622" duration="842000" />
+      <workItem from="1669231200018" duration="3463000" />
+      <workItem from="1669387399172" duration="3327000" />
+      <workItem from="1669448693287" duration="10473000" />
+      <workItem from="1669560444174" duration="5523000" />
+      <workItem from="1669576482367" duration="164000" />
+      <workItem from="1669714235548" duration="130000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bsuir/wt/lr_4/DAO/user/UserDAOImpl.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bsuir/wt/lr_4/servlet/LoginServlet.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bsuir/wt/lr_4/servlet/RoomCatalogServlet.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bsuir/wt/lr_4/DAO/room/RoomDAOImpl.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="resultSet" />
+      </configuration>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/bsuir/wt/lr_4/DAO/user/UserDAOImpl.java" line="76">
+        <watch expression="((byte[][])((Tuple)((java.util.ArrayList)((PgResultSet)roleSet).rows).get(0)).data)[0]" language="JAVA" custom="org.postgresql.core.Tuple,org.postgresql.jdbc.PgResultSet,byte[][],java.util.ArrayList" />
+      </inline-watch>
+    </watches-manager>
+  </component>
+</project>
