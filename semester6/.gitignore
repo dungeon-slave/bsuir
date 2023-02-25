@@ -10,8 +10,9 @@
 **/libs
 
 *.iml
-.gradle
-**/local.properties
+*.properties
+*.gradle
+*.jar
 build.gradle
 gradle.properties
 gradlew
