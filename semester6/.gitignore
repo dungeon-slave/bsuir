@@ -1,0 +1,21 @@
+#In BSUIR
+/СТИАОС
+/БД
+
+#In SDFMP
+*.iml
+.gradle
+/gradle
+/local.properties
+/.idea
+build.gradle
+gradle.properties
+gradlew
+gradlew.bat
+settings.gradle
+
+#In SPP
+node_modules/
+package-lock.json
+package.json
+tsconfig.json
