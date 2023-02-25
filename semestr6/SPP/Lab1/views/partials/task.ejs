@@ -1,0 +1,18 @@
+<style>
+    .task 
+    { 
+        display: flex; 
+        margin-top: 10px;
+    }
+</style>
+
+<% if(task.status == filter || filter == '-') { %>
+<div class="task">
+    <div>
+        <label><%=task.name %>&nbsp;&nbsp;&nbsp;</label>
+        <label><%=task.date %>&nbsp;&nbsp;&nbsp;</label>
+        <label><%=task.status %>&nbsp;&nbsp;&nbsp;</label>
+    </div>
+    <a download="<%=task.file.name %>" href="/files?fileName=<%=task.file.name%>"><%=task.file.name%></a>
+</div>
+<% } %>

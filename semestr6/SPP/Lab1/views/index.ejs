@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <style>
+        .form 
+            { 
+                display: flex; 
+                gap: 5px;
+            }
+        .add-btn 
+            {
+                margin-top: 10px;
+                margin-left: 215px;
+                display: block;
+            }
+        .filter
+            {
+                margin-top: 20px;
+            }
+    </style>
+
+    <body>
+        <form action="/tasks" method="post" enctype="multipart/form-data">
+            <div class="form">
+                <input type="text" name="name" placeholder="Название заметки"/>
+                <input type="date" name="date" placeholder="Дата завершения"/>
+                <input type="hidden" name="MAX_FILE_SIZE" value="30000"/>
+                <select type="text" name="status" placeholder="Статус заметки">
+                    <option>Запланирована</option>
+                    <option>Принята к исполнению</option>
+                    <option>Выполнена</option>
+                </select>
+                <input type="file" name="taskfile" placeholder="Прикреплённый файл"/>
+            </div>
+
+            <input class="add-btn" type="submit" value="Добавить задачу"/>
+        </form>
+
+        <form action="/filter" method="post">
+            <select name="filter" class="filter" value="select">
+                <option>-</option> 
+                <option>Запланирована</option>
+                <option>Принята к исполнению</option>
+                <option>Выполнена</option>
+            </select>
+            <input type="submit" value="Применить фильтр"/>
+        </form>
+
+        <% for (let i = 0; i < tasks.length; i++) { %>
+        <%- include('./partials/task', { task: tasks[i], filter: filter });%>
+        <% } %>
+    </body>
+</html>
