@@ -3,11 +3,15 @@
 /БД
 
 #In SDFMP
+**/gradle
+**/.idea
+**/res
+**/build
+**/libs
+
 *.iml
 .gradle
-/gradle
-/local.properties
-/.idea
+**SDFMP/**/local.properties
 build.gradle
 gradle.properties
 gradlew
