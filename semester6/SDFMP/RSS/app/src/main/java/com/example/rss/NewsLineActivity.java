@@ -1,7 +1,10 @@
 package com.example.rss;
 
 import androidx.appcompat.app.AppCompatActivity;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkCapabilities;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -25,10 +28,17 @@ public class NewsLineActivity extends AppCompatActivity
         btnLoad.setOnClickListener(v -> {
             try
             {
-                EditText urlEdit = findViewById(R.id.editTextURL);
-                rssPath = urlEdit.getText().toString();
-                updateItemsList();
-                drawItems();
+                if (isNetworkAvailable())
+                {
+                    EditText urlEdit = findViewById(R.id.editTextURL);
+                    rssPath = urlEdit.getText().toString();
+                    updateItemsList();
+                    drawItems();
+                }
+                else
+                {
+                    Toast.makeText(this, "NETWORK ERROR!", Toast.LENGTH_LONG).show();
+                }
             }
             catch(Exception e)
             {
@@ -48,7 +58,7 @@ public class NewsLineActivity extends AppCompatActivity
         }
         catch (Exception e)
         {
-            Toast.makeText(NewsLineActivity.this, "CONNECTION ERROR!", Toast.LENGTH_LONG).show();
+            Toast.makeText(NewsLineActivity.this, "LIST UPDATING ERROR!", Toast.LENGTH_LONG).show();
         }
     }
     private void drawItems()
@@ -67,5 +77,12 @@ public class NewsLineActivity extends AppCompatActivity
             intent.putExtra("URL", rssItems.get(position).getLink());
             startActivity(intent);
         });
+    }
+    private boolean isNetworkAvailable()
+    {
+        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkCapabilities capabilities = connectivityManager.getNetworkCapabilities(connectivityManager.getActiveNetwork());
+
+        return capabilities != null && capabilities.hasCapability(NetworkCapabilities.NET_CAPABILITY_VALIDATED);
     }
 }
